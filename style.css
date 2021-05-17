@@ -1,0 +1,50 @@
+.nav navbar-nav{
+    display: inline;
+    list-style: none;
+}
+marquee{
+    background-color: blue;
+    color: white;
+    height: 50px;
+}
+iframe{
+    width: 100%;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid;
+    height: 100%;
+}
+.row::after{
+    clear: both;
+    display: table;
+}
+p{
+    font-size: 15px;
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+#contact h1{
+    text-align: center;
+    font-size: 35px;
+}
+#footer{
+    height: 20px;
+    background-color:white;
+    display: table;
+}
+#footer::after{
+    display: table;
+}
